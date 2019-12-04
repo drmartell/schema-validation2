@@ -12,7 +12,6 @@ const {
 } = require('./lib/types.js');
 
 const Validator = require('./lib/Validator.js');
-const Schema = require('./lib/Schema.js');
 
 console.log(isNumber('3'));
 console.log(isString('3'));
